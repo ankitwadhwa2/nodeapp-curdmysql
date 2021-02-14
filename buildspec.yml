@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+    install:
+        commands:
+            - 'npm install'
+    build:
+        commands:
+            - 'npm run build-ts'
+artifacts:
+    files:
+        - package.json
+        - package-lock.json
+        - config.js
+        - README.md
+        - app.js
+        - views/*
+        - routes/*
+        - node_modules/*  
+
