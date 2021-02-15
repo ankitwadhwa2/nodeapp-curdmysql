@@ -5,7 +5,7 @@ phases:
             - npm install
     build:
         commands:
-            - npm run build
+            - echo "Run build"
 artifacts:
     files:
         - package.json
